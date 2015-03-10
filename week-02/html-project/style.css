@@ -1,0 +1,17 @@
+body{
+	background: red;
+}
+
+div{
+	background: rgba(100,12,165,0.5);
+	margin-top: 200px;
+	margin-left: 130px;
+
+	padding: 20px;
+
+	border: 1px solid black;
+}
+
+h1{
+
+}
