@@ -1,0 +1,51 @@
+body{
+	background: white;
+}
+
+#box1{
+	position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+
+	width: 100px;
+	border: 1px solid black;
+	background: white;
+}
+
+#box2{
+	position: absolute;
+		left: 20px;
+		right: 120px;
+		top: 100px;
+		bottom: 100px;
+	border: 1px solid red;
+	background: white;
+}
+
+#box3{
+	position: fixed;
+		bottom: 10px;
+		left: 50%;
+
+	margin-left: -50px;
+
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	background: white;
+}
+
+.end{
+
+}
+
+#relativething{
+	display: inline;
+	
+	position: relative;
+		top: 10px;
+}
+
+
+
