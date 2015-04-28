@@ -1,0 +1,59 @@
+/*
+	General Layout
+*/
+body{
+	background: white;
+}
+
+.creature{
+	position: relative;
+	width: 180px;
+	height: 300px;
+	margin: 0 auto;
+	background: whitesmoke;
+	padding: 20px;
+}
+
+/*
+	Smallest Size
+*/
+
+.part{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.part-1{
+	background: grey;
+
+	bottom: 0;
+	left: 20px;
+}
+
+.part-2{
+	background: grey;
+
+	bottom: 0;
+	right: 20px;
+}
+
+.part-3{
+	background: #AAA;
+}
+
+/*
+	Medium Size
+*/
+@media (min-width: 480px){
+
+}
+
+/*
+	Large Size
+*/
+@media (min-width: 720px){
+	body{
+		background: blue;
+	}
+}
