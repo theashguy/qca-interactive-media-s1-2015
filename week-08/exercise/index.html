@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#box1{
+			  background: red;
+			  width: 150px;
+			  height: 150px;
+			  
+			  transition: background-color 500ms, width 200ms, height 1000ms;
+			  
+			  cursor: pointer;
+			}
+
+			#box1:hover{
+			  background: blue; 
+			  width: 200px;
+			  height: 100px;
+			}
+
+			@-webkit-keyframes example{
+			  0% { background-color: red; }
+			  50% { background-color: green; }
+			  75% { background-color: yellow }
+			  100% { background-color: red; }
+			}
+
+			@keyframes example{
+			  0% { background-color: yellow; }
+			  50% { background-color: red; }
+			  100% { background-color: black; }
+			}
+
+			#box2{
+			  -webkit-animation: example 10s linear infinite;
+			  animation: example 10s linear infinite;
+			  
+			  border: 1px solid lightgrey;
+			  position: absolute;
+			    top: 10px;
+			    left: 50%;
+			  width: 150px;
+			  height: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box1"></div>
+		<div id="box2"></div>
+	</body>
+</html>
