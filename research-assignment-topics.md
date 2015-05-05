@@ -5,8 +5,8 @@ This document maps research assignment topics to groups, and also suggests topic
 
 #### Unclaimed Topics
 
-* WebGL -- Bringing 3D to the Web
-* D3 -- Data based Visualisations
+x WebGL -- Bringing 3D to the Web
+x D3 -- Data based Visualisations
 * Web RTC - Peer to Peer Real time Communication with Video and Audio.
 * Firebase - Live data sharing backend.
 * Meteor.js
@@ -29,6 +29,7 @@ This document maps research assignment topics to groups, and also suggests topic
 
 * Group 5 - WebGL -- Bringing 3D to the Web
 	* Emma
+* Group 6 - D3.js
 
 #### Format
 
